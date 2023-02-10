@@ -1,0 +1,4 @@
+# handlers file for printfile
+- name: Print to console 
+  debug:
+    msg: "{{command_output.stdout}}"
